@@ -20,6 +20,8 @@ int main()
 	myCylinder.setHeight(height);
 	
 	//output the measurements
-	cout << "The volume of the cylinder is: " << myCylinder.calculateVolume(radius, height) << endl;
-	cout << "The surface area of the cylinder is: " << myCylinder.calculateSA(radius, height) << endl;
+	cout << "The volume of the cylinder is: " << setprecision(6) << myCylinder.calculateVolume(radius, height) << endl;
+	cout << "The surface area of the cylinder is: " << setprecision(6) << myCylinder.calculateSA(radius, height) << endl;
+
+	return 0;
 }
